@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+        <link rel="stylesheet" href="css/certificates/certificates.css">
+        <script src="https://unpkg.com/lucide@latest"></script>
+    </head>
+    <body data-page="certificates"> 
+        <script type="module" src="js/core/app.js"></script>
+
+        <main>
+            <header class="topbar">
+                <div class="topbar-container">
+                    <nav class="navbar">
+                        <a href="index.html" >Home</a>
+                        <a href="projects.html">Projetos</a>
+                        <a href="aboutMe.html">Sobre Mim</a>
+                        <a href="certificates.html" class="active">Certificados</a>
+                        <a href="contacts.html">Contactos</a>
+                    </nav>
+                </div>
+            </header>
+            <section class="certificates-section">
+                <div class="certificates-header">
+                    <span class="certificates-subtitle">
+                        Formação
+                    </span>
+                    <h2>Certificados</h2>
+                    <p>
+                        Cada certificado representa uma etapa concluída no meu percurso
+                        académico, refletindo o meu compromisso com a aprendizagem,
+                        dedicação e desenvolvimento contínuo.
+                    </p>
+                </div>
+                <div class="certificates-grid">
+                    <!-- Diploma -->
+                    <article class="certificate-card">
+                        <div class="certificate-icon">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <h3>Diploma de Conclusão</h3>
+                        <p>
+                            Curso Profissional de Técnico de Gestão e Programação
+                            de Sistemas Informáticos.
+                        </p>
+                        <span>
+                            Escola Profissional de Setúbal • 2025
+                        </span>
+                        <button
+                            class="certificate-button"
+                            data-certificate="diploma">
+                            Visualizar
+                        </button>
+                    </article>
+
+                    <!-- Certificado -->
+                    <article class="certificate-card">
+                        <div class="certificate-icon">
+                            <i data-lucide="file-badge"></i>
+                        </div>
+                        <h3>Certificado de Qualificações</h3>
+                        <p>
+                            Documento oficial com todas as qualificações
+                            obtidas durante o curso.
+                        </p>
+                        <span>
+                            Escola Profissional de Setúbal • 2025
+                        </span>
+                        <button
+                            class="certificate-button"
+                            data-certificate="qualificacoes">
+                            Visualizar
+                        </button>
+                    </article>
+                </div>
+            </section>
+            <div id="certificateModal" class="modal">
+                <div class="modal-overlay"></div>
+                <div class="modal-content">
+                    <button class="close-certificate">
+                        <i data-lucide="x"></i>
+                    </button>
+                    <div id="certificateBody"></div>
+                </div>
+            </div>
+            <footer class="portfolio-footer">
+                <div class="portfolio-footer-divider"></div>
+                <p class="portfolio-footer-author">
+                    Feito por <strong>Eliane Francisco</strong>
+                </p>
+                <div class="portfolio-footer-links">
+                    <a href="https://github.com/teu-github" target="_blank">
+                        GitHub
+                    </a>
+                    <span>·</span>
+                    <a href="https://linkedin.com/in/teu-linkedin" target="_blank">
+                        LinkedIn
+                    </a>
+                    <span>·</span>
+                    <a href="mailto:franciscoeliane155@email.com">
+                        Email
+                    </a>
+                </div>
+                    <p class="portfolio-footer-copy">
+                        © 2026
+                    </p>
+            </footer>
+        </main>
+    </body>
+</html>
