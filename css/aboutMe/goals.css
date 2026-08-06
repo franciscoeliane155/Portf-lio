@@ -1,0 +1,59 @@
+
+.goals-section{
+    padding:120px 0;
+    background:#F8FBFF;
+}
+
+.goals-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.goals-subtitle{
+    color:#2563EB;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.goals-header h2{
+    font-size:3rem;
+    margin-top:20px;
+}
+
+.goals-card{
+    max-width:850px;
+    margin:auto;
+    background:white;
+    border-radius:24px;
+    padding:55px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.goals-card svg{
+    width:70px;
+    height:70px;
+    color:#2563EB;
+    margin-bottom:25px;
+}
+
+.goals-card h3{
+    font-size:2rem;
+    margin-bottom:25px;
+}
+
+.goals-card p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:35px;
+}
+
+.goals-card blockquote{
+    font-style:italic;
+    color:#2563EB;
+    font-size:1.15rem;
+    border-left:4px solid #2563EB;
+    padding-left:20px;
+    text-align:left;
+}

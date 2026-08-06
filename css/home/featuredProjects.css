@@ -1,0 +1,35 @@
+
+@media(max-width:900px){
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+.projects-grid{
+    display:flex;
+    gap:35px;
+    justify-content:center;
+    align-items:stretch;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    flex:1;
+    min-width:350px;
+    max-width:550px;
+}
+
+.current-projects{
+    padding:100px 0;
+    background:#f8fbff;
+}
+
+.container{
+    width:min(1200px,90%);
+    margin:auto;
+}
+
+.current-header{
+    text-align:center;
+    margin-bottom:60px;
+}

@@ -1,0 +1,52 @@
+
+.portfolio-footer{
+    padding:50px 20px 35px;
+    text-align:center;
+}
+
+.portfolio-footer-divider{
+    width:120px;
+    height:2px;
+    margin:0 auto 30px;
+    background:#dbeafe;
+    border-radius:50px;
+}
+
+.portfolio-footer-author{
+    color:#666;
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+.portfolio-footer-author strong{
+    color:#2563EB;
+    font-weight:700;
+}
+
+.portfolio-footer-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    margin-bottom:18px;
+    flex-wrap:wrap;
+}
+
+.portfolio-footer-links a{
+    color:#666;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.portfolio-footer-links a:hover{
+    color:#2563EB;
+}
+
+.portfolio-footer-links span{
+    color:#b0b0b0;
+}
+
+.portfolio-footer-copy{
+    color:#999;
+    font-size:14px;
+}

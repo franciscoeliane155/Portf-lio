@@ -1,0 +1,67 @@
+
+.about-personal{
+    padding:120px 0;
+    background:white;
+}
+
+.personal-header{
+    text-align:center;
+    max-width:750px;
+    margin:0 auto 70px;
+}
+
+.personal-subtitle{
+    color:#2563EB;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.personal-header h2{
+    margin:20px 0;
+    font-size:3rem;
+}
+
+.personal-header p{
+    color:#666;
+    line-height:1.8;
+}
+
+.personal-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.personal-card{
+    background:#F8FBFF;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.personal-card:hover{
+    transform:translateY(-8px);
+}
+
+.personal-card h3{
+    margin-bottom:25px;
+}
+
+.personal-card ul{
+    list-style:none;
+    padding:0;
+}
+
+.personal-card li{
+    padding:10px 0;
+    color:#555;
+    border-bottom:1px solid rgba(0,0,0,.05);
+}
+
+.personal-card li:last-child{
+    border-bottom:none;
+}

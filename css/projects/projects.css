@@ -1,0 +1,29 @@
+@import "../core/topbar.css";
+@import "../core/footer.css";
+
+@import "hero.css";
+@import "search.css";
+@import "filters.css";
+@import "grid.css";
+@import "projectCard.css";
+@import "carousel.css";
+@import "buttons.css";
+@import "modal.css";
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f7f8fc;
+    color:#2d2d2d;
+    line-height:1.6;
+}

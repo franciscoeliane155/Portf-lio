@@ -1,0 +1,32 @@
+
+.projects-search{
+    position:relative;
+    max-width:550px;
+    margin:0 auto 35px;
+}
+
+.projects-search svg{
+    position:absolute;
+    left:18px;
+    top:50%;
+    transform:translateY(-50%);
+    width:20px;
+    height:20px;
+    color:#94a3b8;
+}
+
+.projects-search input{
+    width:100%;
+    padding:15px 20px 15px 50px;
+    border:2px solid #dbeafe;
+    border-radius:50px;
+    background:white;
+    font-size:16px;
+    transition:.25s;
+}
+
+.projects-search input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 5px rgba(37,99,235,.12);
+    outline:none;
+}

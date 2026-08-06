@@ -1,0 +1,10 @@
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,550px);
+    justify-content:center;
+    column-gap:40px;
+    row-gap:80px;
+    margin-top:180px;
+    align-items:start;
+}

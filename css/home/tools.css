@@ -1,0 +1,173 @@
+
+.tools{
+    padding:120px 8%;
+    background:#ffffff;
+    height: 760px;
+}
+
+.section-title{
+    font-size:42px;
+    text-align:center;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#777;
+    font-size:18px;
+    max-width:650px;
+    margin:0 auto 70px;
+}
+
+.tools-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+    justify-content:center;
+    gap:25px;
+    align-items:start;
+}
+
+.tool-card{
+    width:200px;
+    min-height:270px;
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
+    overflow:hidden;
+    position:relative;
+}
+
+.tool-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.skill-level{
+    margin-top:20px;
+    opacity:0;
+    max-height:0;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.tool-card:hover .skill-level{
+    opacity:1;
+    max-height:100px;
+}
+
+.tool-card img{
+    width:75px;
+    height:75px;
+    object-fit:contain;
+    margin-bottom:25px;
+}
+
+.tool-card h3{
+    font-size:23px;
+    margin-bottom:12px;
+    color:#333;
+}
+
+.tool-card p{
+    color:#666;
+    font-size:16px;
+    line-height:1.6;
+}
+
+.tool-info{
+    max-height:0;
+    opacity:0;
+    overflow:hidden;
+    transition:max-height .4s ease, opacity .3s ease;
+}
+
+.tool-card:hover .tool-info{
+    max-height:300px;
+    opacity:1;
+}
+.progress{
+
+    width:100%;
+    height:10px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.progress-bar{
+    height:100%;
+    border-radius:20px;
+}
+
+.html{
+    width:95%;
+    background:#ff5722;
+}
+
+.css{
+    width:90%;
+    background:#2196f3;
+}
+
+.js{
+    width:85%;
+    background:#f7df1e;
+}
+
+.csharp{
+    width:80%;
+    background:#7b1fa2;
+}
+
+.firebase{
+    width:75%;
+    background:#ff9800;
+}
+
+.mysql{
+    width:80%;
+    background:#1565c0;
+}
+
+.skill-level span{
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
+    color:#555;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f7f8fc;
+    color:#2d2d2d;
+    line-height:1.6;
+}
+
+section{
+    width:100%;
+    padding:90px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:38px;
+    margin-bottom:60px;
+    color:#2d2d2d;
+}
+
+

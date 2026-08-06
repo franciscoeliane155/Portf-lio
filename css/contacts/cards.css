@@ -1,0 +1,14 @@
+
+.contact-icon i{
+    font-size:38px;
+    color:#2563EB;
+}
+
+.contact-card:hover .contact-icon{
+    background:#2563EB;
+}
+
+.contact-card:hover .contact-icon svg,
+.contact-card:hover .contact-icon i{
+    color:white;
+}
