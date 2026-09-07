@@ -1,5 +1,5 @@
 import { projects } from "./projectFiles.js";
-import {initializeCarousels} from "./Carousel2.js"; 
+import {initializeCarousels} from "./carousel2.js"; 
 
 function createModal(project){
 
